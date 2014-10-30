@@ -14,7 +14,7 @@ $REX['ADDON']['page'][$page] = $page;
 #$REX['ADDON']['name'][$page] = '';
 $REX['ADDON']['version'][$page] = '0.1';
 $REX['ADDON']['author'][$page] = 'webghost';
-$REX['ADDON']['supportpage'][$page] = 'forum.redaxo.de';
+$REX['ADDON']['supportpage'][$page] = 'http://forum.redaxo.de || https://github.com/webghostx/minifier';
 
 if (!$REX['SETUP']) {
 
