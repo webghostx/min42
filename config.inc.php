@@ -14,7 +14,7 @@ $REX['ADDON']['page'][$page] = $page;
 #$REX['ADDON']['name'][$page] = '';
 $REX['ADDON']['version'][$page] = '0.1';
 $REX['ADDON']['author'][$page] = 'webghost';
-$REX['ADDON']['supportpage'][$page] = 'https://github.com/webghostx/minifier';
+$REX['ADDON']['supportpage'][$page] = 'https://github.com/webghostx/minifier/issues';
 
 if (!$REX['SETUP']) {
 
