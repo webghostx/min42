@@ -40,3 +40,7 @@ Mehrer JS Dateien minifiziert ausgeben lassen:
     ));
 ?>"></script>
 ```
+
+@ToDo
+-----
+* in der nächsten Version wird noch ein HTML-Minifier eingebaut, damit erreicht man dann bei Google PageSpeed Insights 100/100
