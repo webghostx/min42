@@ -28,13 +28,13 @@ Mehrer CSS Dateien minifiziert ausgeben lassen:
       ?>"></script>
 
 Mehrer JS Dateien minifiziert ausgeben lassen:
-
-     <script type="text/javascript" src="<?php
-      echo seo42ext::getCombinedJSMinFile("default.js", array(
-          "jquery-1.11.1.min.js",
-          "bootstrap.min.js",
-          "jQueryExtension.js",
-          "basic.js")
-      );
-      ?>"></script>
-
+```php
+<script type="text/javascript" src="<?php
+echo seo42ext::getCombinedJSMinFile("default.js", array(
+"jquery-1.11.1.min.js",
+"bootstrap.min.js",
+"jQueryExtension.js",
+"basic.js")
+);
+?>"></script>
+```
