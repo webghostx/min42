@@ -32,11 +32,11 @@ class res42ext extends res42 {
 
             if ($fileExtension == 'js') {
                   // js
-                  require_once ('JSMinPlus.php');
+                  require_once (__DIR__ . '/JSMinPlus.php');
                   $content = JSMinPlus::minify($content);
             } elseif ($fileExtension == 'css') {
                   // css
-                  require_once ('Compressor.php');
+                  require_once (__DIR__ . '/Compressor.php');
                   $content = Minify_CSS_Compressor::process($content);
                   
             }
