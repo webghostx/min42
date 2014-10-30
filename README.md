@@ -18,23 +18,24 @@ LESS/SCSS Datei minifiziert ausgeben lassen:
     <link rel="stylesheet" href="<?php echo seo42ext::getGeneratedCSSMinFile("theme.less"); ?>">
 
 Mehrer CSS Dateien minifiziert ausgeben lassen:
-
-     <script type="text/javascript" src="<?php
-      echo seo42ext::getCombinedCSSMinFile("default.js", array(
-          "reset.css",
-          "theme.css",
-          "classes.css")
-      );
-      ?>"></script>
+```html
+<script type="text/javascript" src="<?php
+    echo seo42ext::getCombinedCSSMinFile("default.js", array(
+        "reset.css",
+        "theme.css",
+        "classes.css"
+    ));
+?>"></script>
+```
 
 Mehrer JS Dateien minifiziert ausgeben lassen:
-```php
+```html
 <script type="text/javascript" src="<?php
-echo seo42ext::getCombinedJSMinFile("default.js", array(
-"jquery-1.11.1.min.js",
-"bootstrap.min.js",
-"jQueryExtension.js",
-"basic.js")
-);
+    echo seo42ext::getCombinedJSMinFile("default.js", array(
+        "jquery-1.11.1.min.js",
+        "bootstrap.min.js",
+        "jQueryExtension.js",
+        "basic.js"
+    ));
 ?>"></script>
 ```
