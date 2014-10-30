@@ -14,8 +14,9 @@ Anwendungsbeispiele
 Nun stehen 3 weitere Methoden zur Verfügung in der abgeleiteten Klasse seo42ext
 
 LESS/SCSS Datei minifiziert ausgeben lassen:
-
-    <link rel="stylesheet" href="<?php echo seo42ext::getGeneratedCSSMinFile("theme.less"); ?>">
+```html
+<link rel="stylesheet" href="<?php echo seo42ext::getGeneratedCSSMinFile("theme.less"); ?>">
+```
 
 Mehrer CSS Dateien minifiziert ausgeben lassen:
 ```html
