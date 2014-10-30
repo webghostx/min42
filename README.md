@@ -20,13 +20,13 @@ LESS/SCSS Datei als minifizierte CSS ausgeben lassen:
 
 Mehrer CSS Dateien minifiziert ausgeben lassen:
 ```html
-<script type="text/javascript" src="<?php
-    echo seo42ext::getCombinedCSSMinFile("default.js", array(
+<link rel="stylesheet" href="<?php
+    echo seo42ext::getCombinedCSSMinFile("default.css", array(
         "reset.css",
         "theme.css",
         "classes.css"
     ));
-?>"></script>
+?>">
 ```
 
 Mehrer JS Dateien minifiziert ausgeben lassen:
