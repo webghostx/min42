@@ -1,12 +1,15 @@
-minifier
+min42
 ========
 Plugin für seo42 https://github.com/RexDude/seo42
 
-Damit können minifizierte CSS/JS Dateien generiert werden
+Dieses Plugin ergänzt die Funktionen zur Ausgabe von CSS und JS Dateien in seo42 um eine
+
+Damit können im Template minifizierte CSS/JS Dateien aufgerufen werden. Funktioniert auch mit kombinierten Dateien.
+Zusätzlich kann der gesamte HTML Quellcode der Webseite minifiziert ausgegeben werden.
 
 Installation
 ------------
-* Das Verzeichnis "minifier" in den Plugin-Ordner im Addon seo42 ablegen
+* Das Verzeichnis "min42" in den Plugin-Ordner im Addon seo42 ablegen
 * In REDAXO unter Addons das Plugin installieren und aktivieren
 
 Anwendungsbeispiele
@@ -41,6 +44,6 @@ Mehrer JS Dateien minifiziert ausgeben lassen:
 ?>"></script>
 ```
 
-@ToDo
------
-* in der nächsten Version wird noch ein HTML-Minifier eingebaut, damit erreicht man dann bei Google PageSpeed Insights 100/100
+Einstellungen
+-------------
+Im Backend unter SEO42 -> Minifier kann man ein paar Einstellungen vornehmen

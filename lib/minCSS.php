@@ -9,4 +9,8 @@
  * @license Copyright (c) 2014 webghost (MIT License)
  */
 
-$REX['ADDON']['install']['min42'] = FALSE;
+class minCSS extends CssMin {
+
+
+
+}

@@ -1,0 +1,8 @@
+min42_save_ok = Erfolgreich gespeichert
+min42_save_fail = Speichern fehlgeschlagen!
+min42_reset_ok = Erfolgreich zurückgesetzt!
+min42_reset_fail = Zurücksetzen fehlgeschlagen!
+min42_confirm_reset = Achtung - die aktuellen Einstellungen gehen verloren, es werden die Standard-Einstellungen geladen!
+min42_settings_text = Hier können die Einstellungen verändert werden.
+min42_do_settings_save = Einstellungen speichern
+min42_do_settings_reset = Einstellungen auf Standard zurücksetzen
