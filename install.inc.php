@@ -14,5 +14,4 @@ $minPhpVersion = '5.3.3';
 $minSeo42Version = '3.4.0';
 
 
-      $REX['ADDON']['install']['min42'] = TRUE;
-
+$REX['ADDON']['install']['min42'] = TRUE;
