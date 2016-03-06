@@ -1,0 +1,13 @@
+min42_save_ok = Erfolgreich gespeichert
+min42_save_fail = Speichern fehlgeschlagen!
+min42_reset_ok = Erfolgreich zurückgesetzt!
+min42_reset_fail = Zurücksetzen fehlgeschlagen!
+min42_confirm_reset = Achtung - die aktuellen Einstellungen gehen verloren, es werden die Standard-Einstellungen geladen!
+min42_settings_text = Hier können die Einstellungen verändert werden. Ersetzen Sie nur 1 und 0.
+min42_do_settings_save = Einstellungen speichern
+min42_do_settings_reset = Einstellungen auf Standard zurücksetzen
+min42_pagespeed_text = Testen sie die Geschwindigkeit Ihrer Seite
+min42_gtmetrix_text = Umfangreicher Performance Test
+min42_title = Minifier für SEO42
+min42_settings = Einstellungen
+seo42_min42 = Minifier
