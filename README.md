@@ -1,11 +1,14 @@
 min42
 ========
-Plugin für seo42 https://github.com/RexDude/seo42
+Plugin für das Redaxo-Addon seo42 https://github.com/RexDude/seo42
 
 Dieses Plugin ergänzt die Funktionen zur Ausgabe von CSS und JS Dateien in seo42 um eine Minifizierung des Codes.
 
 Damit können im Template minifizierte CSS/JS Dateien aufgerufen werden. Funktioniert auch mit kombinierten Dateien.
 Zusätzlich kann der gesamte HTML Quellcode der Webseite minifiziert ausgegeben werden.
+
+Eine Einsparung von 20% - 30% Bandbreite beim Aufruf einer Seite ist realistisch.
+
 
 Installation
 ------------
@@ -47,3 +50,5 @@ Mehrer JS Dateien minifiziert ausgeben lassen:
 Einstellungen
 -------------
 Im Backend unter SEO42 -> Minifier kann man ein paar Einstellungen vornehmen
+
+

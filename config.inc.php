@@ -4,7 +4,7 @@
  * min42
  *
  * @version 1.0
- * @package REDAXO seo42 3.4.0 +
+ * @package REDAXO seo42 3.4.0 + / PHP 5.3.2 +
  * @author webghost
  * @license Copyright (c) 2014 webghost (MIT License)
  */
@@ -17,9 +17,9 @@ define("MIN42_DATA_PATH", MIN42_PATH . '/data');
  * Plugin initialisieren
  */
 $REX['ADDON']['rxid'][$addonKey] = '1204';
-$REX['ADDON']['page'][$addonKey] = $addonKey;
-$REX['ADDON']['name'][$addonKey] = 'Minifier';
-$REX['ADDON']['version'][$addonKey] = '0.1';
+#$REX['ADDON']['page'][$addonKey] = $addonKey;
+#$REX['ADDON']['name'][$addonKey] = 'Minifier';
+$REX['ADDON']['version'][$addonKey] = '1.0.2';
 $REX['ADDON']['author'][$addonKey] = 'webghost';
 $REX['ADDON']['supportpage'][$addonKey] = 'https://github.com/webghostx/minifier/issues';
 $REX['PERM'][] = 'min42[]';
@@ -58,7 +58,7 @@ if (!$REX['REDAXO'])
 
 
 if ($REX['REDAXO'])
-	$I18N->appendFile(MIN42_PATH . '/lang/');
+	#$I18N->appendFile(MIN42_PATH . '/lang/');
 
 //
 end:
