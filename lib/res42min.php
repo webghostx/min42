@@ -204,6 +204,7 @@ class res42min extends res42 {
 
                               $scss = new scssc();
                               $scss->setFormatter($formatter);
+                              $scss->addImportPath($path['dirname']);
 
                               $compiledCSS = $scss->compile($sourceFileContent);
                         }
