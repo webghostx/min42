@@ -156,7 +156,18 @@ class res42min extends res42 {
             $cssFileWithPath = parent::$cssPath . $cssFile;
 
             $cssFileMTime = @filemtime($cssFileWithPath);
-            $sourceFileMTime = @filemtime($sourceFileWithPath);
+			$sourceFileMTime = 0;
+
+            $path = pathinfo($sourceFileWithPath);
+			
+			$iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path['dirname']), RecursiveIteratorIterator::CHILD_FIRST);
+			foreach ($iterator as $fileinfo) {
+			    if ($fileinfo->isFile()) {
+			        if ($fileinfo->getMTime() > $sourceFileMTime) {
+			            $sourceFileMTime = $fileinfo->getMTime();
+			        }
+			    }
+			}            
 
 
             if ($cssFileMTime == false || $sourceFileMTime > $cssFileMTime) {
@@ -194,7 +205,7 @@ class res42min extends res42 {
                         if ($sourceFileContent == $compiledCSS) {
                               // include compiler
                               if (!class_exists('scssc')) {
-                                    require_once($REX['INCLUDE_PATH'] . '/addons/seo42/classes/class.scssc.inc.php');
+                                    require_once($REX['INCLUDE_PATH'] . '/addons/seo42/classes/scssphp/scss.inc.php');
                               }
 
                               $formatter = new scss_formatter;
@@ -215,7 +226,7 @@ class res42min extends res42 {
                         if ($sourceFileContent == $compiledCSS) {
                               // include compiler
                               if (!class_exists('lessc')) {
-                                    require_once($REX['INCLUDE_PATH'] . '/addons/seo42/classes/class.lessc.inc.php');
+                                    require_once($REX['INCLUDE_PATH'] . '/addons/seo42/classes/lessphp/Less.php');
                               }
 
                               $formatter = new lessc_formatter_classic;
